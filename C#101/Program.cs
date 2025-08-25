@@ -9,13 +9,34 @@ namespace C_101
     internal class Program
     {
         static void Main(string[] args)
-        {   
+        {
 
-            string x; 
-            string y;
-            //
-            
-            
+            #region Variables
+            string name;
+            bool IsRead;
+            char charater;
+            int number;
+            decimal decimalNumber;
+            /*
+            Rules
+            * Can't start with a number
+            * Can start with an underscore(_)
+            * Must be meaningful
+            * Cannot complain special characters
+            * Cannot be a command.
+             */
+            #endregion
+
+            #region Comments
+            //Single-line comment
+            /*
+             Multi-line comment
+             */
+            #endregion
+
+
+
+
         }
     }
 }
